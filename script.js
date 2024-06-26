@@ -4,8 +4,8 @@ let dateValue = dateElement.value;
 const listContainer = document.querySelector('#list-container');
 
 function addTo() {
-  if(inputElement.value === '' || dateValue === null){
-    alert('Add Task and Deadline');
+  if(inputElement.value === ''){
+    alert('Add Task first!');
   }
   else{
     let li = document.createElement("li");
